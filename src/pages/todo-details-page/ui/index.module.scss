@@ -1,0 +1,31 @@
+.todoDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 720px;
+
+  &Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  &Button {
+    background-color: #3F72AF;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+
+  &Title {
+    font-size: 50px;
+  }
+
+  &Description {
+    font-size: 18px;
+  }
+}
